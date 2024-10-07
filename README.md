@@ -22,3 +22,9 @@
 * Convert roman to number and vice versa
 
 # Oct-06-2024
+
+## Tool
+* Debugging tool: [Python Tutor Website](https://pythontutor.com/)
+
+## Books
+* [3blue1brown](https://www.3blue1brown.com/) for basic calculus, linear algebra
