@@ -57,14 +57,34 @@
 ## Questions
 
 * where is the association between vs code and virtual env stored?
-* 
 
-matplotlib - is base
-seaborn - statistics
-bokeh - web
-pltly - dashboard
-vega altair - declarative
-mermaid, plantUML - library for diagram
+* matplotlib - is base
+* seaborn - statistics
+* bokeh - web
+* pltly - dashboard
+* vega altair - declarative
+* mermaid, plantUML - library for diagram
 
-learn by example scikitlearn https://scikit-learn.org/stable/modules/linear_model.html#
-decision tree can be exported as graphviz: https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html#sphx-glr-auto-examples-tree-plot-iris-dtc-py
+* learn by example scikitlearn https://scikit-learn.org/stable/modules/linear_model.html#
+* decision tree can be exported as graphviz: https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html#sphx-glr-auto-examples-tree-plot-iris-dtc-py
+
+## Nov-02-2024
+
+### Tools
+
+* [pylint](https://pylint.readthedocs.io/en/stable/) can be used in conjunction with other useful tools:
+  * [ruff](https://github.com/astral-sh/ruff): really fast, with builtin auto-fix and a large number of checks taken from popular linters, but implemented in rust
+  * [flake8](https://github.com/PyCQA/flake8): a framework to implement your own checks in python using ast directly
+  * [mypy](https://github.com/python/mypy): typing checks
+  * [pyright](https://github.com/microsoft/pyright): typing checks
+  * [pylance](https://www.google.com): typing checks
+  * [pyre](https://github.com/facebook/pyre-check): typing checks
+  * [bandit](https://github.com/PyCQA/bandit): security oriented checks
+  * [black](https://github.com/psf/black): auto-formatting
+  * [isort](https://pycqa.github.io/isort/): auto-formatting
+  * [autoflake](https://github.com/myint/autoflake): automated removal of unused imports or variables
+  * [pyupgrade](https://github.com/asottile/pyupgrade): automated upgrade to newer python syntax
+  * [pydocstringformatter](https://github.com/DanielNoord/pydocstringformatter): automated pep257
+  * pylint ships with below tool OOTB:
+    * [symilar](https://pylint.readthedocs.io/en/latest/symilar.html): duplicate code finder that is also integrated in pylint
+    * [pyreverse](https://pylint.readthedocs.io/en/latest/pyreverse.html): standalone tool that generates package and class diagrams.
